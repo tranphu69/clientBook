@@ -1,0 +1,55 @@
+@import "react-image-gallery/styles/scss/image-gallery.scss";
+
+.viewDetail{
+    .title{
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .rating{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        .sold{
+            font-size: 17px;
+        }
+    }
+    .price{
+        font-size: 30px;
+        margin: 20px;
+        color: #1677ff;
+    }
+    .delivery{
+        .left{
+            font-weight: 100;
+        }
+        .right{
+            margin-left: 40px;
+            font-weight: 450;
+        }
+    }
+    .quantity{
+        margin-top: 30px;
+        .left{
+            font-weight: 100;
+        }
+        .right{
+            margin-left: 40px;
+            input{
+                width: 50px;
+                text-align: center;
+            }
+        }
+    }
+    .buy{
+        margin-top: 30px;
+    } 
+}
+
+.image-gallery-content{
+    .image-gallery-slide{
+        .image-gallery-image{
+            height: calc(100vh - 180px);
+        }
+    }
+} 

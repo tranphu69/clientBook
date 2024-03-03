@@ -1,0 +1,40 @@
+.homepage-container {
+    .customize-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 10px;
+        .column {
+            width: calc(20% - 10px);
+            height: 275px;
+            .wrapper {
+                height: 275px;
+                cursor: pointer;
+                box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, .1);
+                border-radius: 0.125rem;
+                padding: .3rem;
+                .text {
+                    padding: 0.5rem 0;
+                    font-size: .75rem;
+                }
+                .rating {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                .thumbnail {
+                    max-height: 180.142px;
+                    max-width: 180.142px;
+                    margin: 0 auto;
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 180.142px;
+                        max-height: 180.142px;
+                        background-color: white;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
